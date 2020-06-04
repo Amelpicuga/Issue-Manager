@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue-Menager</title>
+    <link rel="stylesheet" type="text/css" href="issue-manager.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="adding">
+            <h1>ISSUE MANAGER</h1>
+            <div class="input-button">
+                <input type="text" placeholder="Enter Issue" id="addIssueName" class="adding-input"> 
+                <button class="adding-btn" onclick="handlers.addIssue()">Add</button>
+            </div>
+            <div class="input-button">
+                <input type="number" placeholder="Enter Position" id="toggleComplete" class="adding-input"> 
+                <button class="adding-btn" onclick="handlers.toggleComplete()">Check</button>
+            </div>
+        </div>
+       
+        
+        <div class="eding">
+            <div>
+                <input type="number" placeholder="Position" id="changedIssuepositionInput"> 
+                <input type="text" placeholder="Enter Issue Name" id="changedIssueNameInput">
+                <button id="eding-btn" onclick="handlers.changeIssue()">Change Issue</button>    
+            </div>
+        
+            <div>
+                <button class="check-all" onclick="handlers.toggleAll()">Check All</button>
+            </div>
+
+        </div>
+
+        <div class="display">
+            <ul>
+                
+            </ul>
+        </div>
+
+    </div>
+    
+  <p>&#xf14a;</p>
+
+    
+
+
+    <script type="text/javascript"   src="issues-manager.js"></script>
+</body>
+</html>

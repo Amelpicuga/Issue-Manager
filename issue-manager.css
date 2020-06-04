@@ -1,0 +1,147 @@
+body{
+    
+    background-image: url('bckimg.jpg');
+    background-position: center;
+    font-family: 'Lora', serif;
+    margin: 30px;
+   
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+      
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin:auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+}
+.adding{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+}
+
+.adding-input{
+    margin: auto;
+    margin: 20px;
+    width: 30%;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    border: none;
+}
+.adding-btn {
+    height: 30px;
+    padding: 5px;
+    width: 15%;
+    outline: none;
+    background-color: #0acbdd;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lora', serif;;
+}
+
+h1{
+    text-align: center;
+}
+
+.eding{
+    padding: 10px;
+    margin: auto;
+}
+
+#changedIssuepositionInput {
+    width: 15%;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Lora', serif;
+}
+
+#changedIssueNameInput {
+    width: 40%;
+    height: 20px;
+    padding: 5px;
+    margin-right:10px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    font-family: 'Lora', serif;
+}
+
+#eding-btn {
+    height: 30px;
+    padding: 5px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #0acbdd;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.check-all {
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #0acbdd;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.display{
+    padding: 10px;
+    color: white;
+   margin: auto;
+}
+
+.display ul {
+    list-style: none;
+    font-family: 'Lora', serif;
+}
+
+.display ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.deleteIssue {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+    
+}
